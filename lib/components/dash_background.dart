@@ -22,7 +22,7 @@ class DashBackground extends ParallaxComponent<FlappyDashGame> with FlameBlocRea
         ParallaxImageData('background/_05_hill1.png'),
         ParallaxImageData('background/_04_bushes.png'),
         ParallaxImageData('background/_03_distant_trees.png'),
-        ParallaxImageData('background/_02_trees and bushes.png'),
+        ParallaxImageData('background/_02_trees_and_bushes.png'),
         ParallaxImageData('background/_01_ground.png'),
       ],
       baseVelocity: Vector2(1, 0),
