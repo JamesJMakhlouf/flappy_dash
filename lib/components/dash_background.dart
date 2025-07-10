@@ -13,17 +13,17 @@ class DashBackground extends ParallaxComponent<FlappyDashGame> with FlameBlocRea
     anchor = Anchor.center;
     parallax = await game.loadParallax(
       [
-        ParallaxImageData('background/_11_background.png'),
-        ParallaxImageData('background/_10_distant_clouds.png'),
-        ParallaxImageData('background/_09_distant_clouds1.png'),
-        ParallaxImageData('background/_08_clouds.png'),
-        ParallaxImageData('background/_07_huge_clouds.png'),
-        ParallaxImageData('background/_06_hill2.png'),
-        ParallaxImageData('background/_05_hill1.png'),
-        ParallaxImageData('background/_04_bushes.png'),
-        ParallaxImageData('background/_03_distant_trees.png'),
-        ParallaxImageData('background/_02_trees and bushes.png'),
-        ParallaxImageData('background/_01_ground.png'),
+        ParallaxImageData('assets/images/background/_11_background.png'),
+        ParallaxImageData('assets/images/background/_10_distant_clouds.png'),
+        ParallaxImageData('assets/images/background/_09_distant_clouds1.png'),
+        ParallaxImageData('assets/images/background/_08_clouds.png'),
+        ParallaxImageData('assets/images/background/_07_huge_clouds.png'),
+        ParallaxImageData('assets/images/background/_06_hill2.png'),
+        ParallaxImageData('assets/images/background/_05_hill1.png'),
+        ParallaxImageData('assets/images/background/_04_bushes.png'),
+        ParallaxImageData('assets/images/background/_03_distant_trees.png'),
+        ParallaxImageData('assets/images/background/_02_trees and bushes.png'),
+        ParallaxImageData('assets/images/background/_01_ground.png'),
       ],
       baseVelocity: Vector2(1, 0),
       velocityMultiplierDelta: Vector2(1.5, 0)
@@ -40,7 +40,7 @@ class DashBackground extends ParallaxComponent<FlappyDashGame> with FlameBlocRea
       case PlayingState.gameOver:
       case PlayingState.paused:
         break;
-      // default:
+      // defaassets/images/ult:
     }
   }
 }
