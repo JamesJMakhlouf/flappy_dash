@@ -17,7 +17,7 @@ class Pipe extends PositionComponent {
   @override
   FutureOr<void> onLoad() async {
     await  super.onLoad();
-    _pipeSprite = await Sprite.load('assets/images/pipe.png');
+    _pipeSprite = await Sprite.load('pipe.png');
     final ratio = _pipeSprite.srcSize.y / _pipeSprite.srcSize.x;
     const width = 80.0;
     size = Vector2(width, width * ratio);

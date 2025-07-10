@@ -41,7 +41,7 @@ class Dash extends PositionComponent with CollisionCallbacks, HasGameReference<F
       radius: radius * 0.8,
       collisionType: CollisionType.active,
     ));
-    _dashSprite = await Sprite.load('assets/images/dash.png');
+    _dashSprite = await Sprite.load('dash.png');
   }
 
   @override
